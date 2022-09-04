@@ -28,7 +28,12 @@ const Top4 = () => {
         <Heading color="white" fontSize="25px">
           決めると約束してください
         </Heading>
-        <Flex color="white">※夫婦喧嘩はNGです</Flex>
+        <Flex color="white" fontSize="15px">
+          ※夫婦喧嘩はNGです
+        </Flex>
+        <Flex color="white" fontSize="15px">
+          ※喧嘩したら清水がキレます
+        </Flex>
         <Input
           placeholder="「約束します」と入力し誓う"
           color="white"

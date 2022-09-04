@@ -5,7 +5,7 @@ const Top5 = () => {
     <>
       <Flex bgColor="white" minHeight="100vh" align="center" justify="center">
         {/* eslint-disable-next-line */}
-        <Image src="images/6742E009-F7D1-458F-9BE6-145F5DBFCB22.PNG" />
+        <Image src="/images/720B6DF1-77B3-4C3B-B5C7-7A122CE040C2.PNG" />
       </Flex>
     </>
   );

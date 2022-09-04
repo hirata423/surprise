@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { useCallback, useState } from "react";
+import { ImWarning } from "react-icons/im";
 const Top4 = () => {
   const [word, setWord] = useState<string>("");
   const wordChange = (e: any) => setWord(e.target.value);
@@ -29,6 +30,9 @@ const Top4 = () => {
   return (
     <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
       <Stack align="center" spacing="30px">
+        <Heading color="white">
+          <ImWarning color="white" />
+        </Heading>
         <Heading color="white" fontSize="25px">
           秘密の質問
         </Heading>
