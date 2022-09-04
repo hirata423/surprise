@@ -13,7 +13,11 @@ export const Load = () => {
       <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
         <Stack align="center" spacing="30px">
           <Flex pt="50px">
-            <Heading color="white">遅くなってすまない！</Heading>;
+            <Stack justify="center" align="center" spacing="20px">
+              <Heading color="white">2人とも</Heading>;
+              <Heading color="white">遅くなってすまない！</Heading>;
+              <Flex color="white">佳花、好輝をよろしく頼む！</Flex>;
+            </Stack>
           </Flex>
           <Flex>
             <Spinner

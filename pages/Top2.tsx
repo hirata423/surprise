@@ -15,6 +15,13 @@ const Top2 = () => {
         <Button onClick={yes} bgColor="yellow" color="black">
           はい
         </Button>
+        <Flex color="white" fontSize="20px">
+          or
+        </Flex>
+        <Heading color="white">捻り出す！</Heading>
+        <Button onClick={yes} bgColor="yellow" color="black">
+          はい
+        </Button>
       </Stack>
     </Flex>
   );

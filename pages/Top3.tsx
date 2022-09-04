@@ -8,11 +8,14 @@ const Top3 = () => {
   return (
     <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
       <Stack align="center" spacing="30px">
+        <Heading color="white">
+          <ImWarning color="white" />
+        </Heading>
         <Heading color="white" fontSize="25px">
-          今日買いますか？
+          今日買え
         </Heading>
         <Button onClick={yes} bgColor="yellow" color="black">
-          はい
+          わかった
         </Button>
       </Stack>
     </Flex>

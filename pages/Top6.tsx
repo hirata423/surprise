@@ -18,7 +18,7 @@ const Top4 = () => {
 
   const yes = () => {
     if (word !== "すきかもしれんな〜") {
-      alert("文字が適切ではありませんよ！しっかり！");
+      alert("本当に嫁ちゃん愛してんのか？やり直し！");
       setWord("");
     }
     if (word === "すきかもしれんな〜") {
@@ -30,8 +30,12 @@ const Top4 = () => {
     <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
       <Stack align="center" spacing="30px">
         <Heading color="white" fontSize="25px">
+          秘密の質問
+        </Heading>
+        <Heading color="white" fontSize="25px">
           告白の言葉を教えてください
         </Heading>
+
         <Input
           placeholder="ヒント：「しれんな〜(を含む9文字)」"
           color="white"

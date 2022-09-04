@@ -13,7 +13,11 @@ const Top = () => {
         <Heading color="white">
           <ImWarning color="white" />
         </Heading>
-        <Heading color="white">坂本好輝さんですか？</Heading>
+        <Stack align="center" justify="center">
+          <Heading color="white">あなた達は</Heading>
+          <Heading color="white">坂本夫婦ですか？</Heading>
+        </Stack>
+
         <Button onClick={yes} bgColor="yellow" color="black">
           はい
         </Button>
