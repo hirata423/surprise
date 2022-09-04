@@ -6,7 +6,7 @@ const Top3 = () => {
   const router = useRouter();
   const yes = useCallback(() => router.push("/Top4"), [router]);
   return (
-    <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
+    <Flex bgColor="black" minHeight="100vh" pt="90px" justify="center">
       <Stack align="center" spacing="30px">
         <Heading color="white">
           <ImWarning color="white" />

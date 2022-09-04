@@ -17,7 +17,7 @@ const Top4 = () => {
   };
 
   return (
-    <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
+    <Flex bgColor="black" minHeight="100vh" pt="90px" justify="center">
       <Stack align="center" spacing="20px">
         <Heading color="white">
           <ImWarning color="white" />
