@@ -8,7 +8,7 @@ const Top = () => {
   const yes = useCallback(() => router.push("/Top2"), [router]);
 
   return (
-    <Flex bgColor="black" minHeight="100vh" align="center" justify="center">
+    <Flex bgColor="black" minHeight="70vh" align="center" justify="center">
       <Stack align="center" spacing="30px">
         <Heading color="white">
           <ImWarning color="white" />
