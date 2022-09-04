@@ -8,12 +8,12 @@ const Top = () => {
   const yes = useCallback(() => router.push("/Top2"), [router]);
 
   return (
-    <Flex bgColor="black" minHeight="70vh" align="center" justify="center">
+    <Flex bgColor="black" minHeight="100vh" pt="80px" justify="center">
       <Stack align="center" spacing="30px">
         <Heading color="white">
           <ImWarning color="white" />
         </Heading>
-        <Stack align="center" justify="center">
+        <Stack align="center">
           <Heading color="white">あなた達は</Heading>
           <Heading color="white">坂本夫婦ですか？</Heading>
         </Stack>
